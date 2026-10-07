@@ -1,19 +1,25 @@
+__pycache__/
 .venv
 .vscode
-recordings/
+.ipynb_checkpoints
 
 # MkDocs build output
 site/
+changelog.md
 
-# Unit 1
-student_data.json
-student_data.pkl
+# Data artifacts
+*.json
+*.pkl
+*.csv
+!data/*
+!data/unit-3/*
+!data/unit-4/*
+!data/unit-6/*
+
 
 # Unit 2
-lesson-11-activity-solution.ipynb
-lesson-12-activity-solution.ipynb
-lesson-13-activity-solution.ipynb
-lesson-14-activity-solution.ipynb
-lesson-15-activity-solution.ipynb
+unit-2/lesson-16/data
+unit-2/INC2
 
-lesson12-demo.ipynb
+# Class Friday Aug 20th notes:
+TODO.md
